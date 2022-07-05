@@ -1,0 +1,1 @@
+wx.cloud.init()

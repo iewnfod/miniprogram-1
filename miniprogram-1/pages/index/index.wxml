@@ -1,0 +1,20 @@
+<!--pages/index/index.wxml-->
+
+<view class="search">
+  <view class="search_input_view">
+    <input class="search_input" placeholder="搜索" placeholder-class="search_placeholder" confirm-type="search"/>
+  </view>
+  <image class="search_image" src="/static/background/search.png"></image>
+</view>
+
+<show_as_box aid="{{id1}}" title="{{title1}}" subtitle="{{subtitle1}}" viewtimes="{{viewtimes1}}" picture="{{picture1}}" />
+
+<show_as_box aid="{{id2}}" title="{{title2}}" subtitle="{{subtitle2}}" viewtimes="{{viewtimes2}}" picture="{{picture2}}" />
+
+
+<view class="lastinfo">
+  <text class="info1">以上所有均由高中学生开发</text>
+  <text class="info1">若发现bug或者想要加入我们</text>
+  <text class="info1">请发送邮件到 rt227919512@163.com</text>
+  <text class="info1">来个前端大佬帮帮孩子吧！！！</text>
+</view>

@@ -1,0 +1,37 @@
+/* pages/show/show.wxss */
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-style: oblique;
+  font-size: large;
+  margin: 10rpx;
+  border-bottom: 1rpx solid #ddd;
+  color: rgb(0, 0, 0); 
+}
+
+.main_container {
+  height: 1060rpx;
+}
+
+.functions {
+  margin: 10rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.comment {
+  border-radius: 30rpx;
+  border: 1rpx solid #ddd;
+}
+
+.comment_input {
+  width: 500rpx;
+  margin-left: 10rpx;
+}
+
+.comment_input_placeholder {
+  font-size: small;
+}

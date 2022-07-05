@@ -1,0 +1,14 @@
+<!--pages/home/home.wxml-->
+
+<view class="personinfo">
+  <view class="picture">
+    <image src="/static/background/t.png"></image>
+    <image src="/static/background/t.png"></image>
+  </view>
+  <view class="info">
+    <text>info</text>
+    <view class="functions">
+      <text>upload</text>
+    </view>
+  </view>
+</view>

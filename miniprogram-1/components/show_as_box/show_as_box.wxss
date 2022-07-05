@@ -1,0 +1,39 @@
+/* components/show_as_box/show_as_box.wxss */
+
+.a_page {
+  margin: 30rpx;
+  border: 1rpx solid rgb(176, 89, 35);
+  border-radius: 10rpx;
+  box-shadow: 5rpx 5rpx 5rpx rgb(143, 75, 40);
+}
+
+.main_title {
+  font-size: large;
+  margin-left: 10rpx;
+  margin-top: 10rpx;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.sub_title {
+  font-size: small;
+  margin-left: 10rpx;
+  color: gray;
+  font-style: oblique;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.main_picture {
+  margin-left: 10rpx;
+  margin-top: 10rpx;
+}
+
+.main_picture_image {
+  border-radius: 10rpx;
+}
+
+.view_time_text {
+  margin-right: 20rpx;
+}

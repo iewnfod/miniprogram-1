@@ -1,0 +1,18 @@
+<!--components/show_as_box/show_as_box.wxml-->
+
+<view bindtap="toDetail" data-aid="{{aid}}">
+  <view class="a_page">
+    <view class="main_title">
+      <text class="main_title_text">{{title}}</text>
+    </view>
+    <view class="sub_title">
+      <text class="sub_title_text">{{subtitle}}</text>
+      <view class="view_time">
+        <text class="view_time_text">view {{viewtime}} times</text>
+      </view>
+    </view>
+    <view class="main_picture">
+      <image src="{{picture}}" class="main_picture_image"></image>
+    </view>
+  </view>
+</view>

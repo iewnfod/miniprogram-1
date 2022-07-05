@@ -1,0 +1,23 @@
+<!--pages/show/show.wxml-->
+
+<view>
+  <view class="title">
+    <text id="title">{{title}}</text>
+  </view>
+  <view class="main_container">
+    <web-view id="article_viewer" src="{{article_url}}">
+      
+    </web-view>
+  </view>
+  <view class="functions">
+    <view class="comment">
+      <input class="comment_input" placeholder="发布评论" placeholder-class="comment_input_placeholder" confirm-type="send" />
+    </view>
+    <view class="send">
+      <text>发送</text>
+    </view>
+    <view class="collect">
+      <text>收藏</text>
+    </view>
+  </view>
+</view>
